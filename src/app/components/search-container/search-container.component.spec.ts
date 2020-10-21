@@ -37,16 +37,4 @@ describe('SearchContainerComponent', () => {
     const service: SearchService = TestBed.get(SearchService);
     expect(service.getSearchMeal).toBeTruthy();
    });
-
-//    it('searchInput should update value when input changes', async(() => {
-//     const fixture = TestBed.createComponent(SearchContainerComponent);
-//     expect(fixture.debugElement.nativeElement.value).toBeFalsy()
-//     const el: HTMLInputElement = fixture.debugElement.query(By.css('search')).nativeElement;
-//     const testValue = 'Venetian Duck Ragu';
-//     el.value = testValue;
-//     el.dispatchEvent(new Event('search'));
-//     expect(fixture.componentInstance.handleSearch).toEqual(testValue);
-// }));
-
-
 });

@@ -1,5 +1,5 @@
 {
-  "name": "angular-jest-sample",
+  "name": "meal-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -13,7 +13,10 @@
   "jest": {
     "preset": "jest-preset-angular",
     "collectCoverage": true,
-    "coverageReporters": ["json", "html"],
+    "coverageReporters": [
+      "json",
+      "html"
+    ],
     "setupFilesAfterEnv": [
       "<rootDir>/setupJest.ts"
     ],
@@ -43,6 +46,7 @@
     "@angular/router": "~8.0.0",
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
+    "nyc": "^15.1.0",
     "popper.js": "^1.16.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
@@ -53,12 +57,11 @@
     "@angular/cli": "~8.0.2",
     "@angular/compiler-cli": "~8.0.0",
     "@angular/language-service": "~8.0.0",
-    "@types/jest": "^24.0.15",
+    "@types/jest": "^24.9.1",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
-    "jest": "^24.8.0",
+    "jest": "^24.9.0",
     "jest-preset-angular": "^7.1.1",
-    "jest-cli": "git://github.com/hankhsiao/jest.git",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
